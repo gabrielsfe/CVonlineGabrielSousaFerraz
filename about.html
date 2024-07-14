@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mim - Gabriel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <!-- Cabeçalho com o título do site e o menu de navegação -->
+    <header>
+        <h1>Sobre mim</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="about.html">Sobre mim</a></li>
+                <li><a href="education.html">Formação</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Conteúdo principal da página Sobre mim -->
+    <main>
+        <h2>Quem sou eu?</h2>
+        <p>
+            Meu nome é Gabriel Sousa Ferraz, tenho 25 anos e sou apaixonado por tecnologia.
+        </p>
+        <h3>Hobbies e interesses</h3>
+        <p>
+            Nos meus tempos livres, gosto de praticar academia para desestressar após um longo período de trabalho.
+            Também gosto de vôlei e recentemente fui introduzido ao tênis. Apesar de ser um esporte bem complexo, é
+            muito legal. Além disso, gosto muito jogos online; atualmente, estou jogando League of Legends. Assistir a
+            séries e animes também são alguns dos meus principais hobbies.
+        </p>
+        <h3>Imagens dos meus hobbies</h3>
+        <div class="image-gallery">
+
+            <figure>
+                <img src="images/volei_praia.jpg" alt="Vôlei de praia" class="clickable">
+                <figcaption>Vôlei de praia (Imagem ilustrativa)</figcaption>
+            </figure>
+            <figure>
+                <img src="images/tenis.jpg" alt="Tênis" class="clickable">
+                <figcaption>Tênis (Imagem ilustrativa)</figcaption>
+            </figure>
+            <figure>
+                <img src="images/league_of_legends.jpg" alt="League of Legends" class="clickable">
+                <figcaption>League of Legends (Jogo)</figcaption>
+            </figure>
+            <figure>
+                <img src="images/kaiju_no_8.png" alt="Kaiju No. 8" class="clickable">
+                <figcaption>Kaiju No. 8 (Anime)</figcaption>
+            </figure>
+            <figure>
+                <img src="images/one_piece.jpg" alt="One Piece" class="clickable">
+                <figcaption>One Piece (Anime)</figcaption>
+            </figure>
+        </div>
+    </main>
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+    <!-- Rodapé do site -->
+    <footer>
+        <p>&copy; 2024 Gabriel Sousa. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
